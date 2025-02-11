@@ -35,7 +35,7 @@ This script reads the dataset, converts text-based issues into vector embeddings
 
 ### 5. Start the FastAPI Server
 ```bash
-uvicorn app:app --reload
+uvicorn search-service:app --reload
 ```
 This starts the **FastAPI web service**, making the search engine accessible at `http://localhost:8000`.
 
