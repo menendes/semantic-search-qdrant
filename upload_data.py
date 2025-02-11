@@ -1,5 +1,4 @@
 import json
-import numpy as np
 from qdrant_client import QdrantClient, models
 from sentence_transformers import SentenceTransformer
 
@@ -16,8 +15,10 @@ client = QdrantClient("localhost", port=6333)
 # Define Qdrant collection name
 collection_name = "customer_support"
 
-# Create Qdrant collection
-client.recreate_collection(
+if client.collection_exists(collection_name):
+    client.delete_collection(collection_name)
+
+client.create_collection(
     collection_name=collection_name,
     vectors_config=models.VectorParams(size=384, distance=models.Distance.COSINE)
 )
