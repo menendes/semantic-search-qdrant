@@ -51,10 +51,10 @@ ticket_id = 1000
 for category, issues in categories.items():
     for issue, response in issues:
         data.append({
-            "Ticket ID": f"TKT-{ticket_id}",
+            "Ticket_ID": f"TKT-{ticket_id}",
             "Category": category,
-            "Customer Issue": issue,
-            "Resolution Response": response
+            "Customer_Issue": issue,
+            "Resolution_Response": response
         })
         ticket_id += 1
 

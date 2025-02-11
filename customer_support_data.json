@@ -1,145 +1,145 @@
 [
     {
         "Ticket ID": "TKT-1000",
-        "Category": "Billing Issue",
+        "Category": "BillingIssue",
         "Customer Issue": "I was charged twice for my subscription.",
         "Resolution Response": "We apologize for the inconvenience. We have refunded the duplicate charge."
     },
     {
         "Ticket ID": "TKT-1001",
-        "Category": "Billing Issue",
+        "Category": "BillingIssue",
         "Customer Issue": "Why is my bill higher than expected?",
         "Resolution Response": "Your bill may include additional fees or a price increase. Please check the breakdown in your account."
     },
     {
         "Ticket ID": "TKT-1002",
-        "Category": "Billing Issue",
+        "Category": "BillingIssue",
         "Customer Issue": "I want to update my payment method.",
         "Resolution Response": "You can update your payment details in the billing section of your account settings."
     },
     {
         "Ticket ID": "TKT-1003",
-        "Category": "Technical Support",
+        "Category": "TechnicalSupport",
         "Customer Issue": "My app keeps crashing on startup.",
         "Resolution Response": "Try clearing the app cache or reinstalling the app. Let us know if the issue persists."
     },
     {
         "Ticket ID": "TKT-1004",
-        "Category": "Technical Support",
+        "Category": "TechnicalSupport",
         "Customer Issue": "The website is not loading properly.",
         "Resolution Response": "Please try clearing your browser cache or using a different browser."
     },
     {
         "Ticket ID": "TKT-1005",
-        "Category": "Technical Support",
+        "Category": "TechnicalSupport",
         "Customer Issue": "My camera is not working on video calls.",
         "Resolution Response": "Ensure that the app has camera permissions enabled in your device settings."
     },
     {
         "Ticket ID": "TKT-1006",
-        "Category": "Account Access",
+        "Category": "AccountAccess",
         "Customer Issue": "I forgot my password and can't reset it.",
         "Resolution Response": "You can reset your password using the 'Forgot Password' link. If you need further assistance, contact support."
     },
     {
         "Ticket ID": "TKT-1007",
-        "Category": "Account Access",
+        "Category": "AccountAccess",
         "Customer Issue": "My account was locked after multiple login attempts.",
         "Resolution Response": "For security reasons, your account is temporarily locked. Please try again in 30 minutes or reset your password."
     },
     {
         "Ticket ID": "TKT-1008",
-        "Category": "Account Access",
+        "Category": "AccountAccess",
         "Customer Issue": "Can I change my email address?",
         "Resolution Response": "Yes, you can update your email in the account settings. A verification email will be sent."
     },
     {
         "Ticket ID": "TKT-1009",
-        "Category": "Product Inquiry",
+        "Category": "ProductInquiry",
         "Customer Issue": "Does this product come with a warranty?",
         "Resolution Response": "Yes, this product includes a 1-year manufacturer's warranty."
     },
     {
         "Ticket ID": "TKT-1010",
-        "Category": "Product Inquiry",
+        "Category": "ProductInquiry",
         "Customer Issue": "What are the dimensions of this item?",
         "Resolution Response": "The product dimensions are listed in the specifications section on the product page."
     },
     {
         "Ticket ID": "TKT-1011",
-        "Category": "Product Inquiry",
+        "Category": "ProductInquiry",
         "Customer Issue": "Is this item available in other colors?",
         "Resolution Response": "Yes, this product is available in multiple colors. Please check the available options on the website."
     },
     {
         "Ticket ID": "TKT-1012",
-        "Category": "Refund Request",
+        "Category": "RefundRequest",
         "Customer Issue": "I want to request a refund for my order.",
         "Resolution Response": "You can request a refund through your order history. Refunds are processed within 5-7 business days."
     },
     {
         "Ticket ID": "TKT-1013",
-        "Category": "Refund Request",
+        "Category": "RefundRequest",
         "Customer Issue": "Why was my refund denied?",
         "Resolution Response": "Refunds may be denied if the return policy criteria are not met. Please review our return policy."
     },
     {
         "Ticket ID": "TKT-1014",
-        "Category": "Refund Request",
+        "Category": "RefundRequest",
         "Customer Issue": "Can I get a refund if I used a promo code?",
         "Resolution Response": "Refunds are issued for the amount paid after applying the promo code."
     },
     {
         "Ticket ID": "TKT-1015",
-        "Category": "Shipping Delay",
+        "Category": "ShippingDelay",
         "Customer Issue": "My order is delayed. When will it arrive?",
         "Resolution Response": "We apologize for the delay. You can check the latest tracking updates in your order history."
     },
     {
         "Ticket ID": "TKT-1016",
-        "Category": "Shipping Delay",
+        "Category": "ShippingDelay",
         "Customer Issue": "Why is my package stuck in transit?",
         "Resolution Response": "Shipping delays may occur due to carrier issues. Please allow additional time for delivery."
     },
     {
         "Ticket ID": "TKT-1017",
-        "Category": "Shipping Delay",
+        "Category": "ShippingDelay",
         "Customer Issue": "Can I expedite my shipping?",
         "Resolution Response": "If your order has not yet shipped, you may upgrade to express shipping in your order settings."
     },
     {
         "Ticket ID": "TKT-1018",
-        "Category": "Subscription Cancellation",
+        "Category": "SubscriptionCancellation",
         "Customer Issue": "How do I cancel my subscription?",
         "Resolution Response": "You can cancel your subscription in your account settings under the 'Subscription' section."
     },
     {
         "Ticket ID": "TKT-1019",
-        "Category": "Subscription Cancellation",
+        "Category": "SubscriptionCancellation",
         "Customer Issue": "Will I be charged if I cancel before the renewal date?",
         "Resolution Response": "No, if you cancel before your next billing cycle, you will not be charged."
     },
     {
         "Ticket ID": "TKT-1020",
-        "Category": "Subscription Cancellation",
+        "Category": "SubscriptionCancellation",
         "Customer Issue": "Can I pause my subscription instead of canceling?",
         "Resolution Response": "Yes, we offer a pause option for up to 3 months."
     },
     {
         "Ticket ID": "TKT-1021",
-        "Category": "Order Tracking",
+        "Category": "OrderTracking",
         "Customer Issue": "Where is my package?",
         "Resolution Response": "You can track your package using the tracking number provided in your order confirmation."
     },
     {
         "Ticket ID": "TKT-1022",
-        "Category": "Order Tracking",
+        "Category": "OrderTracking",
         "Customer Issue": "My tracking number is not updating.",
         "Resolution Response": "Tracking updates may take up to 24 hours. If there's no update after that, contact the carrier."
     },
     {
         "Ticket ID": "TKT-1023",
-        "Category": "Order Tracking",
+        "Category": "OrderTracking",
         "Customer Issue": "Can I change my delivery address after placing the order?",
         "Resolution Response": "Once an order is processed, the delivery address cannot be changed. Please contact support for options."
     }

@@ -12,6 +12,9 @@ __pycache__/
 venv/
 .env
 
+# Ignore qdrant storage files
+qdrant_storage
+
 # Ignore log files
 *.log
 
