@@ -23,11 +23,43 @@ class SemanticSearchEngine:
         :return: List of matching documents
         """
         query_vector = self.model.encode(query).tolist()
-        results = self.client.search(
+        results = self.client.query_points(
             collection_name=self.collection_name,
-            query_vector=query_vector,
+            query=query_vector,
             limit=top_k
-        )
+        ).points
+
+        return [
+            {
+                "Customer Issue": res.payload["customer_issue"],
+                "Category": res.payload["category"],
+                "Resolution Response": res.payload["resolution_response"]
+            }
+            for res in results
+        ]
+
+    def search_with_filter(self, query, category, top_k=5):
+        """
+        Perform a semantic search in Qdrant with a category filter.
+        :param query: Search query (text)
+        :param category: Category filter
+        :param top_k: Number of top results to return
+        :return: List of matching documents
+        """
+        query_vector = self.model.encode(query).tolist()
+        results = self.client.query_points(
+            collection_name=self.collection_name,
+            query=query_vector,
+            limit=top_k,
+            query_filter=models.Filter(
+                must=[
+                    models.FieldCondition(
+                        key="category",
+                        match=models.MatchValue(value=category)
+                    )
+                ]
+            )
+        ).points
 
         return [
             {

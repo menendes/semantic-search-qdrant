@@ -49,6 +49,6 @@ This starts the **FastAPI web service**, making the search engine accessible at 
 
 - Perform a search query using `curl`:
   ```bash
-  curl "http://localhost:8000/search?query=I can't log in&top_k=3"
+  curl "http://localhost:8000/search?query='I can't log in'&top_k=3"
   ```
   This sends a GET request to the `/search` endpoint, retrieving the top 3 most relevant support tickets.
